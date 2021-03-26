@@ -31,6 +31,16 @@ body {
     text-align: center;
 }
 
+form .post-button{
+	color: #763523;	
+	font-size: 1em;
+	
+	display: inline-block;
+	margin: 16px 8px 0 0;	
+	padding: 8px 16px;
+	border-radius: 6px;
+}
+
 .logo{
   height: 40px;
   width: 40px; 
