@@ -13,10 +13,26 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-</body>
+<body>
   <a href="./index.html">Home</a>
-  This is my subpage. 
-  <p>This is my <a href="./files/ZZhang_Resume.pdf">Resume</a>. Click to download.</p>
+  <section>
+    <h2>This is my subpage.</h2> 
+    <p>This is my <a href="./files/ZZhang_Resume.pdf">Resume</a>. Click to download.</p>
+  </section>
+  
+ <h2> Send quick email to me! </h2>
+   <form id="email-form" action="mailto:tigerzhang828@gmail.com" method="get">
+	<div>
+		<label for="sub">Subject*:</label> 
+		<input name="sub" id="sub" size="50" required/>
+	</div>
+	<div>
+		<label for="bodypart">Body*:</label>
+		<textfield name="bodypart" id="bodypart" rows="5" required></textarea>		
+	</div>			
+	<input type="submit" id="send-button" value="Send" />
+    </form>
+
   Going to update...
 </body>
 
