@@ -21,14 +21,15 @@
   </section>
   
  <h2> Send quick email to me! </h2>
-   <form id="email-form" action="mailto:tigerzhang828@gmail.com?subject=From%20Website%20" method="get">
+   <form id="email-form" action="mailto:tigerzhang828@gmail.com?subject=From%20Website%20" 
+	 method="get" enctype="text/plain" onsubmit="javascript:alert("Thank you!");">
 	<div>
 		<label for="subject">Subject*:</label> 
 		<input name="subject" id="subject" size="50" required/>
 	</div>
 	<div>
 		<label for="body">Body*:</label>
-		<textarea name="body" id="body" rows="5" size="50" required></textarea>		
+		<textarea name="body" id="body" rows="5" cols="50" required></textarea>		
 	</div>			
 	<input type="submit" id="send-button" value="Send" />
     </form>
