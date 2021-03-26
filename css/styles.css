@@ -14,7 +14,7 @@ body {
     font-family: 'IBM Plex Serif', Georgia, serif;
     font-size: 1rem;
     line-height: 1.5;
-    background-image: url("./img/bkgrd.jpg");
+    background-image: url("../img/bkgrd.jpg");
     color: white;
 }
 
